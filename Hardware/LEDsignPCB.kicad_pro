@@ -751,13 +751,21 @@
         "uuid": "bd70e714-05b6-457c-88d3-c29e19a48f7d"
       }
     ],
-    "used_designators": "MK2,#PWR21-22,#PWR37-69,C18-32,R16-31,J1-6,U5-6,Q1",
+    "used_designators": "R46-48",
     "variants": []
   },
   "sheets": [
     [
       "bd70e714-05b6-457c-88d3-c29e19a48f7d",
       "LEDsignPCB"
+    ],
+    [
+      "8c054620-6004-48cb-a03a-25466b371194",
+      "Power Protection"
+    ],
+    [
+      "ad31b9a1-6a11-4004-aff0-96035b9d12ae",
+      "PD Negotiation"
     ]
   ],
   "text_variables": {},
