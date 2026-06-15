@@ -751,7 +751,7 @@
         "uuid": "bd70e714-05b6-457c-88d3-c29e19a48f7d"
       }
     ],
-    "used_designators": "R46-48",
+    "used_designators": "#PWR70,#PWR75-76,#PWR80,#PWR83-84,#PWR86,#PWR91,#PWR94-122,C6,C47-62,U9-12,MK3,R8-11,R36-45,R57-59,SW3-6",
     "variants": []
   },
   "sheets": [
@@ -766,6 +766,26 @@
     [
       "ad31b9a1-6a11-4004-aff0-96035b9d12ae",
       "PD Negotiation"
+    ],
+    [
+      "5ee2a0f5-19aa-47d0-a12e-8553741d2893",
+      "9V-5V Buck Converter"
+    ],
+    [
+      "06ceb6ee-9a5e-4371-83f6-89b97292c988",
+      "5V-3.3V LDO"
+    ],
+    [
+      "ec8b4063-3c65-4601-9323-dd57fba7332f",
+      "Microphone"
+    ],
+    [
+      "b475e693-e7f9-4673-82a1-d3aed72b9ed4",
+      "3.3V Filter"
+    ],
+    [
+      "8e2c88e6-8746-4b15-8686-07d137c70311",
+      "3.3V-5V Level Shifter"
     ]
   ],
   "text_variables": {},
