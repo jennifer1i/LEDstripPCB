@@ -8957,7 +8957,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "06ceb6ee-9a5e-4371-83f6-89b97292c988")
-		(property "Sheetname" "5V-3.3V LDO"
+		(property "Sheetname" "LEDs and Audio (page 5)"
 			(at 214.63 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9023,7 +9023,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "5ee2a0f5-19aa-47d0-a12e-8553741d2893")
-		(property "Sheetname" "9V-5V Buck Converter"
+		(property "Sheetname" "MCU"
 			(at 162.56 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +9099,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8c054620-6004-48cb-a03a-25466b371194")
-		(property "Sheetname" "Power Protection"
+		(property "Sheetname" "Input Protection"
 			(at 69.85 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +9121,7 @@
 				(justify left top)
 			)
 		)
-		(pin "D+" input
+		(pin "D+" output
 			(at 69.85 46.99 180)
 			(uuid "415dfcef-99d1-411b-8c85-aff2b791d0a7")
 			(effects
@@ -9281,7 +9281,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "ad31b9a1-6a11-4004-aff0-96035b9d12ae")
-		(property "Sheetname" "PD Negotiation"
+		(property "Sheetname" "Power Regulation"
 			(at 109.22 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
