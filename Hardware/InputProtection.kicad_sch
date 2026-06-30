@@ -2198,7 +2198,7 @@
 	)
 	(text "high-frequency path to ground \nwhile DC-isolating the shield"
 		(exclude_from_sim no)
-		(at 73.66 82.296 0)
+		(at 77.47 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)

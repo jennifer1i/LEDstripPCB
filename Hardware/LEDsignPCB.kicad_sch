@@ -122,7 +122,7 @@
 		)
 	)
 	(rectangle
-		(start 177.8 131.572)
+		(start 177.8 127.762)
 		(end 280.924 162.052)
 		(stroke
 			(width 0.254)
@@ -156,9 +156,9 @@
 		)
 		(uuid "8a59b68f-1748-4cf1-9191-fda9ffac4f61")
 	)
-	(text "Designed for Apple 20W PD charger use, but any pd \nwith a 9V profile will work"
+	(text "- Designed for any PD charger with 9V or higher profile\n- Use 5V addressable strips\n- must initially NVM program PD controllerto accept profiles >5V\n- RESET button to reset hardware\n- Entering flash mode: hold BOOT, press and release RESET, then\nrelease BOOT.\n- Entering run mode: press RESET (BOOT is already pulled high)"
 		(exclude_from_sim no)
-		(at 180.086 141.986 0)
+		(at 180.086 147.066 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -169,7 +169,7 @@
 	)
 	(text "Application Notes"
 		(exclude_from_sim no)
-		(at 179.832 135.128 0)
+		(at 180.086 131.318 0)
 		(effects
 			(font
 				(size 1.905 1.905)

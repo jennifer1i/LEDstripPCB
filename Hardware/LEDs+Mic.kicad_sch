@@ -1725,7 +1725,7 @@
 	)
 	(text "- use ceramic x7r capacitors\n- add hole beneath mic, no via hole\n- don't use vias\n- use single layer\n- bottom ported mic\n- keep mic far away from buck sw and inductor"
 		(exclude_from_sim no)
-		(at 22.606 32.004 0)
+		(at 22.098 31.242 0)
 		(effects
 			(font
 				(size 1.524 1.524)
