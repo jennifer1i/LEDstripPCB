@@ -2497,7 +2497,7 @@
 	)
 	(text "Indicator LEDs"
 		(exclude_from_sim no)
-		(at 44.704 107.188 0)
+		(at 45.72 107.188 0)
 		(effects
 			(font
 				(size 1.27 1.27)

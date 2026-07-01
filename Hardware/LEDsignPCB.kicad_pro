@@ -569,7 +569,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -593,7 +593,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -692,7 +692,7 @@
           "group_by": false,
           "label": "P/N",
           "name": "P/N",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -757,7 +757,7 @@
         "uuid": "bd70e714-05b6-457c-88d3-c29e19a48f7d"
       }
     ],
-    "used_designators": "L1,D1-15,#PWR1-84,#PWR172,F1,TP1-23,J1-5,R1-41,#FLG1-9,C1-30,MK1,Q1,SW1-2,U1-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
