@@ -3128,6 +3128,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 132.08 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a36ef8e-cc8b-45fa-a8c0-67f2320889d3")
 		)
@@ -3340,6 +3351,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 72.39 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 72.39 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -3573,6 +3595,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 146.05 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4056132-10d0-40f0-8955-a6985d995f8b")
 		)
@@ -3793,6 +3826,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 115.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3bf92901-b62d-442b-83a9-85cac5d76e51")
 		)
@@ -3995,6 +4039,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 48.26 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 48.26 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4268,6 +4323,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 115.57 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bbe6a5b6-3581-49ce-aaee-c2630c742310")
 		)
@@ -4492,6 +4558,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 132.08 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1e4f1e1-9e31-4d56-9835-1482e3c80a58")
 		)
@@ -4696,6 +4773,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4916,6 +5004,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 160.02 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 160.02 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5295,6 +5394,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 157.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "587b9abf-661f-4a01-b2b9-db97271abd7f")
 		)
@@ -5506,6 +5616,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 132.08 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 132.08 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -5730,6 +5851,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 40.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 40.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6030,6 +6162,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 72.39 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 72.39 50.8 90)
 			(hide yes)
 			(show_name no)

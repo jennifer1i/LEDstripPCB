@@ -3962,6 +3962,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 90.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b8d7048-c06c-440b-b62b-20b6e41e7be2")
 		)
@@ -4176,6 +4187,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 102.87 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 102.87 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4632,6 +4654,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 90.17 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5204,6 +5237,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 33.02 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "059ad7d3-5709-4d28-8fdc-278c38039fd7")
 		)
@@ -5448,6 +5492,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 78.74 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd97370d-4f4f-459a-bea3-8dd34175cd62")
 		)
@@ -5662,6 +5717,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 124.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5963,6 +6029,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 31.75 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88eb1adf-b7d1-4f13-ab0b-3f490dcfdb59")
 		)
@@ -6031,6 +6108,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 59.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 59.69 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6420,6 +6508,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 34.29 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "becd429a-d4e6-4f44-b7c2-f2efd4ef1c1d")
 		)
@@ -6491,6 +6590,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 78.74 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6726,6 +6836,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 41.91 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43d4b311-4504-4fc3-8fab-9564bb8c79ea")
 		)
@@ -6940,6 +7061,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 163.83 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 163.83 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -7174,6 +7306,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 96.52 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2989a1d8-8354-48fb-89f8-1b800d1919ed")
 		)
@@ -7388,6 +7531,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 33.02 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a13c042a-c9b6-417c-a80e-1487e008093d")
 		)
@@ -7477,6 +7631,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 50.8 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "12b7d2f3-3395-411a-adb8-710dd106fb3a")
 		)
@@ -7548,6 +7713,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 69.85 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7848,6 +8024,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 44.45 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ad5f3842-1e10-4374-ab1a-ca949864891a")
 		)
@@ -8049,6 +8236,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 170.18 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 170.18 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8356,6 +8554,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 20.32 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5e575a3-d8dc-4011-8609-aa7b717d454f")
 		)
@@ -8577,6 +8786,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 44.45 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "606a89d0-4eb5-4e8a-9ec7-54c5b50d3a7a")
 		)
@@ -8746,6 +8966,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 59.69 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "432e93fb-f576-40a3-bd66-289b75e6059e")
 		)
@@ -8906,6 +9137,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 69.85 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
+			(at 69.85 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9294,6 +9536,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 111.76 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46ae5e5d-666a-4026-8bc3-551cdec71572")
 		)
@@ -9508,6 +9761,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 81.28 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9809,6 +10073,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 171.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "13cd4789-ec35-4b7c-a178-3fbf2cd80d8b")
 		)
@@ -10029,6 +10304,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 119.38 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 119.38 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10263,6 +10549,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 38.1 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa09c9df-7dfa-49eb-b42f-1a8cf9029de5")
 		)
@@ -10477,6 +10774,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 111.76 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 111.76 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -10789,6 +11097,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 64.77 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c06b4003-b6eb-4ceb-a4e2-0118608d18e3")
 		)
@@ -11003,6 +11322,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 64.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 64.77 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11237,6 +11567,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 31.75 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e923f3c-5609-4f12-bf26-7657618ceebb")
 		)
@@ -11451,6 +11792,17 @@
 				)
 			)
 		)
+		(property " LCSC P/N" ""
+			(at 20.32 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fca5faf8-834e-4d81-b61b-d4480364df8f")
 		)
@@ -11519,6 +11871,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 50.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property " LCSC P/N" ""
 			(at 50.8 115.57 0)
 			(hide yes)
 			(show_name no)
