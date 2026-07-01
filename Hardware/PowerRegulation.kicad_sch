@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "c68fc610-b0e1-4c38-8e07-1cff467fd1f5")
 	(paper "A4")
+	(title_block
+		(title "Power Regulation")
+		(date "7/2026")
+		(rev "A")
+		(company "Jennifer Li")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -3271,6 +3277,18 @@
 		(uuid "004278ee-0715-441d-8382-758c6cab3bbd")
 	)
 	(rectangle
+		(start 146.304 54.864)
+		(end 181.356 62.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "448bfb42-26b5-422a-bcf4-c02a3acd7362")
+	)
+	(rectangle
 		(start 19.05 19.05)
 		(end 184.15 107.95)
 		(stroke
@@ -3352,9 +3370,9 @@
 		)
 		(uuid "0a027a78-2798-4b89-b02b-092165b2c1a0")
 	)
-	(text "place GND vias on exposed pad\n.3/.6 3x3"
+	(text "place GND vias \non exposed pad\n.3/.6 3x3"
 		(exclude_from_sim no)
-		(at 29.972 177.546 0)
+		(at 34.036 173.736 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3365,7 +3383,7 @@
 	)
 	(text "Indicator LEDs\n"
 		(exclude_from_sim no)
-		(at 203.454 23.622 0)
+		(at 203.454 22.606 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -3374,20 +3392,9 @@
 		)
 		(uuid "137cbcca-a5f5-4d84-bc94-1908fff17755")
 	)
-	(text "damp gate oscillation\nand slow turn on,\nprevent inrush current\nspike"
-		(exclude_from_sim no)
-		(at 146.304 127.508 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15d7d23a-871a-4e07-90ed-932ab454cc8f")
-	)
 	(text "ensures gate voltage\ntracks source voltage"
 		(exclude_from_sim no)
-		(at 124.46 162.56 0)
+		(at 123.952 162.052 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3396,9 +3403,9 @@
 		)
 		(uuid "1f5ab4cb-a18d-4643-a788-82bd8415d848")
 	)
-	(text "chip off during initial \nNVM programming"
+	(text "buck off during initial \nNVM programming"
 		(exclude_from_sim no)
-		(at 49.784 29.718 0)
+		(at 50.292 28.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3409,7 +3416,7 @@
 	)
 	(text "GPIO default ERROR_RECOVERY: asserts low when fault"
 		(exclude_from_sim no)
-		(at 103.124 174.498 0)
+		(at 102.87 174.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3418,9 +3425,9 @@
 		)
 		(uuid "415447a0-be3b-4d22-8521-3901210f8c33")
 	)
-	(text "Float MODE pin for \nFCCM mode, reduces noise"
+	(text "FCCM enabled"
 		(exclude_from_sim no)
-		(at 42.672 59.69 0)
+		(at 54.61 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3431,7 +3438,7 @@
 	)
 	(text "Vout = 0.6 x (1 + Rfbt/Rfbb)\nVout = 0.6 x (1 + 73.2k/10k)\nVout = 0.6 x (1 + 7.32) = 4.992"
 		(exclude_from_sim no)
-		(at 161.544 58.928 0)
+		(at 163.576 58.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3472,7 +3479,7 @@
 	)
 	(text "CC1DB and CC2DB to CC1 and CC2\nfor dead-battery mode"
 		(exclude_from_sim no)
-		(at 25.654 148.082 0)
+		(at 27.94 147.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,7 +3512,7 @@
 	)
 	(text "RESET active high"
 		(exclude_from_sim no)
-		(at 46.99 128.524 0)
+		(at 48.768 128.778 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3547,7 +3554,7 @@
 	)
 	(text "X5R ceramic"
 		(exclude_from_sim no)
-		(at 105.156 24.892 0)
+		(at 156.972 30.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3555,9 +3562,9 @@
 		)
 		(uuid "b05cda5a-9536-423c-b43a-a676ccca4bb3")
 	)
-	(text "caps rated ideally >30V"
+	(text "caps rated 2-3x input voltage"
 		(exclude_from_sim no)
-		(at 25.654 52.578 0)
+		(at 31.75 52.578 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3586,12 +3593,6 @@
 			)
 		)
 		(uuid "e3a463dc-35fc-41f8-a65d-6e877b12c647")
-	)
-	(junction
-		(at 106.68 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06539cd7-aa18-4f9d-9247-679c824d852a")
 	)
 	(junction
 		(at 68.58 38.1)
@@ -3628,6 +3629,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ad69a9c-6887-46d5-a390-103a15c975ec")
+	)
+	(junction
+		(at 105.41 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3063b40d-ad21-4348-82a5-05325f441655")
 	)
 	(junction
 		(at 46.99 33.02)
@@ -3756,10 +3763,22 @@
 		(uuid "aae63299-6383-44b2-89e8-af34d35d8695")
 	)
 	(junction
+		(at 105.41 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb73b353-13e9-4396-9ce8-1ed8cd549726")
+	)
+	(junction
 		(at 102.87 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c595a54f-1d55-46bc-8215-d482aa7a103f")
+	)
+	(junction
+		(at 105.41 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c797a6d6-03ad-47ea-b75b-29c3d93fea2f")
 	)
 	(junction
 		(at 110.49 33.02)
@@ -3792,22 +3811,10 @@
 		(uuid "e7688d1a-695f-42bb-8c07-aaebfe69d016")
 	)
 	(junction
-		(at 104.14 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef5fa56f-d5f5-482e-afe9-730bccc8b53b")
-	)
-	(junction
 		(at 139.7 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f119db1f-30e0-4e45-9b83-f608b7e36f7d")
-	)
-	(junction
-		(at 101.6 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2a814ab-b144-4854-bd77-80740720d478")
 	)
 	(junction
 		(at 111.76 85.09)
@@ -4195,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 87.63) (xy 254 90.17)
+			(xy 256.54 87.63) (xy 256.54 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4222,16 +4229,6 @@
 			(type default)
 		)
 		(uuid "43ca9efb-a086-4cca-92c9-e4c4d9ec334c")
-	)
-	(wire
-		(pts
-			(xy 104.14 45.72) (xy 113.03 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d8e507-a0c3-4045-9953-b80e00a29802")
 	)
 	(wire
 		(pts
@@ -4515,7 +4512,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 40.64) (xy 101.6 40.64)
+			(xy 100.33 40.64) (xy 105.41 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4575,7 +4572,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.008 67.31) (xy 278.003 67.31)
+			(xy 191.262 67.31) (xy 278.003 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4625,7 +4622,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 45.72) (xy 104.14 45.72)
+			(xy 100.33 45.72) (xy 105.41 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4642,6 +4639,16 @@
 			(type default)
 		)
 		(uuid "8c12e7d7-9ca3-4fc7-9799-20b92c56fe1d")
+	)
+	(wire
+		(pts
+			(xy 105.41 40.64) (xy 110.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8ba14b-c1d3-4dfb-892d-7351c6b9987e")
 	)
 	(wire
 		(pts
@@ -4662,16 +4669,6 @@
 			(type default)
 		)
 		(uuid "9080acad-675f-45c7-850c-2eb3ab50871a")
-	)
-	(wire
-		(pts
-			(xy 101.6 40.64) (xy 110.49 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90ddfb6e-9da5-4ac5-b2cc-fc477a57fc01")
 	)
 	(wire
 		(pts
@@ -4702,16 +4699,6 @@
 			(type default)
 		)
 		(uuid "96476577-a20b-4595-9568-163077789f71")
-	)
-	(wire
-		(pts
-			(xy 106.68 50.8) (xy 128.27 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "964c0520-f9b1-4152-8b8c-0517794a5d6c")
 	)
 	(wire
 		(pts
@@ -4765,7 +4752,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 50.8) (xy 106.68 50.8)
+			(xy 100.33 50.8) (xy 105.41 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4925,6 +4912,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 50.8) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5053de-0634-4698-abfa-99ccc098a00a")
+	)
+	(wire
+		(pts
 			(xy 46.99 33.02) (xy 55.88 33.02)
 		)
 		(stroke
@@ -5055,6 +5052,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 45.72) (xy 113.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3fdaca1-2a57-41a7-a9c4-89782e039d78")
+	)
+	(wire
+		(pts
 			(xy 127 146.05) (xy 127 153.67)
 		)
 		(stroke
@@ -5179,7 +5186,7 @@
 	)
 	(hierarchical_label "3V3_F"
 		(shape output)
-		(at 254 87.63 0)
+		(at 256.54 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5332,7 +5339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01bb722d-3f13-4b6e-8445-211fac66c44f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 39.37 83.185 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5399,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5410,7 +5417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0218db4b-9f80-45dd-aabf-36981ef67352")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR037"
 			(at 153.67 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5470,7 +5477,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0141")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5580,7 +5587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "067f8f88-72ee-44c4-993b-39aff8acb09c")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR019"
 			(at 57.15 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5641,7 +5648,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR091")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5659,7 +5666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089d789b-d4ce-4a8f-ae3b-34fd512ebc04")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 88.5033 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,7 +5799,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5810,7 +5817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09139390-e09b-4732-a616-2f5eca573202")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR047"
 			(at 232.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5870,7 +5877,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR017")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5887,7 +5894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0972114c-3443-4ae6-90d6-0b31ed302ca4")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 49.53 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +5969,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10a68390-40aa-4651-be3b-e32948eba713")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 149.86 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6039,7 +6046,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6056,7 +6063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "113af101-6798-4e58-a87b-49fa694a3cf5")
-		(property "Reference" "R64"
+		(property "Reference" "R7"
 			(at 63.5 154.178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,7 +6257,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R64")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6268,7 +6275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11ec2132-ff48-4563-a687-ef9f035e2a22")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR051"
 			(at 246.38 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6328,7 +6335,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR013")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6345,7 +6352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13adef6b-24af-413d-9236-2e1c0cc3c76c")
-		(property "Reference" "C76"
+		(property "Reference" "C14"
 			(at 141.732 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,7 +6559,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C76")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6570,7 +6577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1526d12c-dc4e-4863-96f2-552632a5988f")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR039"
 			(at 160.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6630,7 +6637,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0142")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6858,7 +6865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b33146b-28bd-4509-8f51-7aea746a2a16")
-		(property "Reference" "C74"
+		(property "Reference" "C8"
 			(at 66.04 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7065,7 +7072,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C74")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7083,7 +7090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23827b38-9501-45ba-bbf7-4d672e1454d0")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR026"
 			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7144,7 +7151,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR095")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7162,7 +7169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "272161f9-0718-4c0c-a58a-bf6a20194383")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR042"
 			(at 204.47 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7222,7 +7229,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR026")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7240,7 +7247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27fe3cea-e93b-4faa-af0d-c608b6763c41")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR029"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7300,7 +7307,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR06")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7317,7 +7324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "289e26f0-c07b-45a2-b192-d36ebdefbdc7")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 105.41 27.432 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7390,7 +7397,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7407,7 +7414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d2d1b01-402e-4568-8964-96c7d11043b8")
-		(property "Reference" "C73"
+		(property "Reference" "C4"
 			(at 47.244 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7614,7 +7621,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C73")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7631,7 +7638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d430e97-94c2-4d41-95e1-2f806a06af56")
-		(property "Reference" "C47"
+		(property "Reference" "C10"
 			(at 88.138 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7838,7 +7845,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C47")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7856,7 +7863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ead9ab2-b94c-4f54-b471-c27d9fc27395")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR048"
 			(at 232.41 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7916,7 +7923,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR012")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7933,7 +7940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f0a7c96-8932-4c37-8917-84d9be87f650")
-		(property "Reference" "R57"
+		(property "Reference" "R16"
 			(at 123.444 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,7 +8134,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R57")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8145,7 +8152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32620836-8653-4f62-b4b2-a15d8b00b2c4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR011"
 			(at 31.75 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +8212,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR02")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8223,7 +8230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354d04dd-2bf1-45ac-9760-c167838f1005")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR030"
 			(at 109.22 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8284,7 +8291,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR096")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8301,7 +8308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a5000f9-10de-4d97-a684-b7cd3ccf21bb")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 102.87 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8361,7 +8368,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a6ae034-c274-44ea-8e49-b12602d5c4a2")
-		(property "Reference" "R76"
+		(property "Reference" "R11"
 			(at 109.22 161.798 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +8579,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R76")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8590,7 +8597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c1d8d1c-d574-4a45-b79a-c67be5288580")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR031"
 			(at 116.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8650,7 +8657,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR05")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8668,7 +8675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41ae9e72-ca28-4916-be36-1734abb18fbd")
-		(property "Reference" "U14"
+		(property "Reference" "U1"
 			(at 58.42 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8876,7 +8883,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "U14")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8894,7 +8901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "426c4a59-9bbe-42d9-a392-a7382d33fc4b")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR035"
 			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8954,7 +8961,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0140")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8971,7 +8978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47a52927-9b80-4e00-85a2-a8a113e5179b")
-		(property "Reference" "R61"
+		(property "Reference" "R5"
 			(at 49.276 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9167,7 +9174,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R61")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9184,7 +9191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4971bbc7-c67e-4e1a-9952-13c476d430c8")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 85.09 23.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +9279,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9290,7 +9297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bdb386e-35f5-4bd7-b8f3-8ebcec38942d")
-		(property "Reference" "D6"
+		(property "Reference" "D9"
 			(at 262.89 48.5774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9497,7 +9504,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "D6")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9515,7 +9522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4beee162-8afd-4ab0-bd29-d758b9acf1b9")
-		(property "Reference" "R15"
+		(property "Reference" "R21"
 			(at 207.01 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9711,7 +9718,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R15")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9728,7 +9735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cd9931d-e4e1-4358-a209-be14ad2bc074")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 167.64 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9788,7 +9795,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9806,7 +9813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cf98ec5-b443-4313-be06-ac82690534f4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR041"
 			(at 173.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9866,7 +9873,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR032")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9883,7 +9890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d2e079e-a226-45de-9e75-c267057a5eac")
-		(property "Reference" "C46"
+		(property "Reference" "C7"
 			(at 55.118 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10090,7 +10097,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C46")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10107,7 +10114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d3edcfd-d869-40f4-85d3-d203b7f89ced")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 158.75 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10167,7 +10174,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10184,7 +10191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d4a36a5-b655-44f4-802f-23037fb08659")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10244,7 +10251,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10261,7 +10268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56f18ba8-8394-45aa-ae24-d3ae58859910")
-		(property "Reference" "C10"
+		(property "Reference" "C17"
 			(at 152.4 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10336,7 +10343,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C10")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10354,7 +10361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58912c8c-3597-4c32-85b2-47211a7531d1")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 38.1 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -10414,7 +10421,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -10431,7 +10438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bff3c34-3c6d-4cf0-8a21-65f20d11db18")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR043"
 			(at 204.47 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10491,7 +10498,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR08")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10508,7 +10515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fb695a0-f06a-4570-9be5-e04dc55fa57a")
-		(property "Reference" "R75"
+		(property "Reference" "R8"
 			(at 63.5 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10702,7 +10709,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R75")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10719,7 +10726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fbd681e-f2f1-4e7b-b888-2c8955ff7726")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR027"
 			(at 97.79 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10779,7 +10786,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR035")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10796,7 +10803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "622031f4-4be5-44e4-ab8d-30516f123630")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR024"
 			(at 83.82 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10856,7 +10863,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR028")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10864,7 +10871,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 237.49 90.17 0)
+		(at 240.03 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10874,8 +10881,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62781ecb-6207-4a5c-893f-dba5d0060462")
-		(property "Reference" "#PWR09"
-			(at 237.49 93.98 0)
+		(property "Reference" "#PWR049"
+			(at 240.03 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10886,7 +10893,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 237.49 85.09 0)
+			(at 240.03 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10896,7 +10903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10907,7 +10914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10918,7 +10925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10934,7 +10941,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR09")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10951,7 +10958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6299767e-1c3b-4177-a65f-3c010d0cc99c")
-		(property "Reference" "C8"
+		(property "Reference" "C13"
 			(at 130.302 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,7 +11033,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C8")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11044,7 +11051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c0f3f8-fc32-4a2f-b434-ed35ff7d6ebd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR045"
 			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11104,7 +11111,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR011")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11122,7 +11129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63337d54-e6c7-452c-a302-25be738cf587")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR032"
 			(at 118.11 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11182,7 +11189,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR01")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11199,7 +11206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64f596f4-bef5-471f-b3c1-ae2f2feb7799")
-		(property "Reference" "R59"
+		(property "Reference" "R9"
 			(at 103.378 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11395,7 +11402,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R59")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11413,7 +11420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66ae46f4-e085-4d8e-9af6-497884719000")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR023"
 			(at 76.2 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11473,7 +11480,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0138")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11491,7 +11498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a4da291-3c51-4bb6-ada0-1d7563bebd2c")
-		(property "Reference" "D10"
+		(property "Reference" "D5"
 			(at 208.28 48.5774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11698,7 +11705,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11715,7 +11722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6aaf1f27-2ff2-4b56-9668-845d32a6cce3")
-		(property "Reference" "R78"
+		(property "Reference" "R15"
 			(at 113.03 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11909,7 +11916,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R78")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11927,7 +11934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b6ede77-e399-4173-af35-5ea29476146f")
-		(property "Reference" "U15"
+		(property "Reference" "U4"
 			(at 128.27 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12132,7 +12139,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "U15")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12149,7 +12156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cf06067-b5a8-4ae5-bb59-238f71effffb")
-		(property "Reference" "R63"
+		(property "Reference" "R12"
 			(at 114.3 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12343,7 +12350,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R63")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12360,7 +12367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "746fff30-44ef-4178-959b-ed3e08f6bb7d")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 35.56 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12567,7 +12574,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12584,7 +12591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "790ebaeb-4170-456c-83ad-98b3e8a4d298")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR016"
 			(at 46.99 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12644,7 +12651,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR025")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b68a93b-9d20-429c-8f40-599cdbd30d58")
-		(property "Reference" "R2"
+		(property "Reference" "R17"
 			(at 133.35 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12734,7 +12741,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R2")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12751,7 +12758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d7466ef-ceb4-48d6-93dd-4bee29200681")
-		(property "Reference" "R77"
+		(property "Reference" "R10"
 			(at 103.124 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12945,7 +12952,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R77")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12953,7 +12960,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 237.49 90.17 180)
+		(at 240.03 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12964,7 +12971,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fb67c87-5d84-4f2a-bd9d-acc4fe73c4cd")
 		(property "Reference" "TP5"
-			(at 240.03 92.2019 0)
+			(at 242.57 92.2019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12975,7 +12982,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 240.03 94.7419 0)
+			(at 242.57 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12986,7 +12993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 90.17 0)
+			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12997,7 +13004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 90.17 0)
+			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +13015,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,7 +13026,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13030,7 +13037,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13041,7 +13048,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13052,7 +13059,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13063,7 +13070,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13074,7 +13081,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13085,7 +13092,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13096,7 +13103,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13107,7 +13114,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13118,7 +13125,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13129,7 +13136,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13140,7 +13147,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 237.49 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13164,7 +13171,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 106.68 50.8 0)
+		(at 105.41 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13173,8 +13180,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8542131e-e014-4c05-aa28-f24760d010ad")
-		(property "Reference" "#FLG09"
-			(at 106.68 48.895 0)
+		(property "Reference" "#FLG08"
+			(at 105.41 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13185,7 +13192,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 108.204 52.578 0)
+			(at 105.41 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13195,7 +13202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 50.8 0)
+			(at 105.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13206,7 +13213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 50.8 0)
+			(at 105.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13217,7 +13224,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.68 50.8 0)
+			(at 105.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13233,7 +13240,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#FLG09")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -13250,7 +13257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8749103a-7ee4-4304-b863-1b9e33f5f8d4")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 141.224 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13325,7 +13332,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13343,7 +13350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "897e2d81-8d80-4aa2-8aa0-be6af4e10d6d")
-		(property "Reference" "R4"
+		(property "Reference" "R22"
 			(at 220.98 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13539,7 +13546,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R4")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -13557,7 +13564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa8a405-aa98-4e0e-8a3b-0bc648098947")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR020"
 			(at 58.42 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13617,7 +13624,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0136")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13634,7 +13641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b46e002-31bd-4ab9-8d75-4637c2206d6a")
-		(property "Reference" "C78"
+		(property "Reference" "C18"
 			(at 160.528 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13841,7 +13848,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C78")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -13858,7 +13865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e9ea518-0d5f-4230-bb0f-3378d15000aa")
-		(property "Reference" "C9"
+		(property "Reference" "C15"
 			(at 143.51 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13933,7 +13940,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C9")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13951,7 +13958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eabe01e-79b3-47e1-a512-f5aeeef42093")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR014"
 			(at 45.72 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -14011,7 +14018,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0135")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14028,7 +14035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91009367-173c-4b66-8c20-8949aefce84a")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG03"
 			(at 58.42 154.305 0)
 			(hide yes)
 			(show_name no)
@@ -14088,7 +14095,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#FLG010")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -14096,7 +14103,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 220.98 90.17 0)
+		(at 222.25 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14106,8 +14113,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9787ccdb-8be5-4aac-afa7-e644faa266be")
-		(property "Reference" "#PWR07"
-			(at 220.98 93.98 0)
+		(property "Reference" "#PWR046"
+			(at 222.25 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14118,7 +14125,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 220.98 85.09 0)
+			(at 222.25 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14128,7 +14135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14139,7 +14146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14150,7 +14157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14166,7 +14173,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR07")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14184,7 +14191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aeaa7be-a76c-4da2-af00-caceed53900f")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR021"
 			(at 69.85 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14244,7 +14251,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0137")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -14261,7 +14268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bce2bf9-2410-47cd-8526-2d87d3afcce0")
-		(property "Reference" "C11"
+		(property "Reference" "C19"
 			(at 161.29 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14336,7 +14343,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C11")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -14353,7 +14360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ea8887e-bf30-40ee-9c54-1d2568874e54")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 31.75 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14428,7 +14435,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14445,7 +14452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f867bde-1e7b-4ecf-8683-5149902ec76c")
-		(property "Reference" "C77"
+		(property "Reference" "C16"
 			(at 149.606 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,7 +14659,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C77")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -14660,7 +14667,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 104.14 45.72 0)
+		(at 105.41 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14669,8 +14676,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a200bd47-cbf6-408b-9a65-30a5cebf355e")
-		(property "Reference" "#FLG08"
-			(at 104.14 43.815 0)
+		(property "Reference" "#FLG07"
+			(at 105.41 43.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14681,7 +14688,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 105.664 47.244 0)
+			(at 105.41 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14691,7 +14698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 45.72 0)
+			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14702,7 +14709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 45.72 0)
+			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14713,7 +14720,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 104.14 45.72 0)
+			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,7 +14736,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#FLG08")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -14747,7 +14754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8c253a5-8bba-49d2-88c9-e03cc2779c6c")
-		(property "Reference" "D3"
+		(property "Reference" "D8"
 			(at 250.19 48.5774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14954,7 +14961,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "D3")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -14971,7 +14978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa107938-2539-4f9e-bd0e-c3c876fb7715")
-		(property "Reference" "R18"
+		(property "Reference" "R6"
 			(at 63.5 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15033,7 +15040,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R18")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15051,7 +15058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaedb556-bfd3-4f8c-baad-79d4c316217b")
-		(property "Reference" "R5"
+		(property "Reference" "R23"
 			(at 234.95 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15247,7 +15254,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R5")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -15265,7 +15272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af334989-512e-4330-a311-1a1b3ab0aaeb")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR033"
 			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15325,7 +15332,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0139")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15419,7 +15426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b348d83b-c9ab-47e9-b71e-13b7f6c41919")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 145.034 145.034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15621,7 +15628,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -15639,7 +15646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4e24fd1-07d7-42be-be39-7a86d504a95a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR025"
 			(at 85.09 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -15699,7 +15706,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR03")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15717,7 +15724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7dd46fb-d311-4041-b9d3-07401f44d530")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 236.22 48.5774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15924,7 +15931,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -15942,7 +15949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b804de52-4c3d-41eb-8109-108d5ba7ba53")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR017"
 			(at 50.8 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16003,7 +16010,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0170")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16011,7 +16018,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 101.6 40.64 0)
+		(at 105.41 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16020,8 +16027,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bac1d093-630a-4da0-b2b2-1a9a4f36a9d1")
-		(property "Reference" "#FLG07"
-			(at 101.6 38.735 0)
+		(property "Reference" "#FLG06"
+			(at 105.41 38.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16032,7 +16039,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 103.124 42.164 0)
+			(at 105.41 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16042,7 +16049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 40.64 0)
+			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16053,7 +16060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 40.64 0)
+			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16064,7 +16071,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 101.6 40.64 0)
+			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16080,7 +16087,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#FLG07")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -16098,7 +16105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc8aebae-8baa-4f40-80cf-d2a0914e5c8e")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR013"
 			(at 39.37 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -16158,7 +16165,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR0134")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -16166,7 +16173,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 254 90.17 180)
+		(at 256.54 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16177,7 +16184,7 @@
 		(fields_autoplaced yes)
 		(uuid "c68643f7-6823-4b1d-931a-be91e8e4fda9")
 		(property "Reference" "TP6"
-			(at 256.54 92.2019 0)
+			(at 259.08 92.2019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16188,7 +16195,7 @@
 			)
 		)
 		(property "Value" "3V3_F"
-			(at 256.54 94.7419 0)
+			(at 259.08 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16199,7 +16206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 90.17 0)
+			(at 251.46 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16210,7 +16217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 90.17 0)
+			(at 251.46 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16221,7 +16228,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16232,7 +16239,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16243,7 +16250,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16254,7 +16261,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16265,7 +16272,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16276,7 +16283,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16287,7 +16294,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16298,7 +16305,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16309,7 +16316,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16320,7 +16327,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16331,7 +16338,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16342,7 +16349,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16353,7 +16360,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 254 90.17 0)
+			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16387,7 +16394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7825038-e3ff-487c-9276-dae56c5100d8")
-		(property "Reference" "R6"
+		(property "Reference" "R24"
 			(at 248.92 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16583,7 +16590,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R6")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -16601,7 +16608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c997f3c5-31e7-4b6b-a84a-e95b9d4680ec")
-		(property "Reference" "R7"
+		(property "Reference" "R25"
 			(at 261.62 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16797,7 +16804,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R7")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -16815,7 +16822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce6fa088-1354-4762-87c8-064577d85194")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR022"
 			(at 71.12 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -16876,7 +16883,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR094")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16884,7 +16891,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 220.98 90.17 180)
+		(at 222.25 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16895,7 +16902,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf6a1c48-a3ba-48d0-b437-93649bb05ec0")
 		(property "Reference" "TP4"
-			(at 223.52 92.2019 0)
+			(at 224.79 92.2019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16906,7 +16913,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 223.52 94.7419 0)
+			(at 224.79 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16917,7 +16924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 90.17 0)
+			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16928,7 +16935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 90.17 0)
+			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16939,7 +16946,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16950,7 +16957,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16961,7 +16968,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16972,7 +16979,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16983,7 +16990,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16994,7 +17001,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17005,7 +17012,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17016,7 +17023,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17027,7 +17034,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17038,7 +17045,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17049,7 +17056,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17060,7 +17067,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17071,7 +17078,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 220.98 90.17 0)
+			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17104,7 +17111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3defb90-b806-48bc-bbff-c0411e307b00")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 141.224 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17179,7 +17186,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17196,7 +17203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5ba9fdb-ee71-414e-9464-240aa23ec2d8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR044"
 			(at 218.44 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17256,7 +17263,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR016")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17273,7 +17280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6bb4ce2-c3b3-4498-a2a7-3fbd69d77e41")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 40.894 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17348,7 +17355,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -17365,7 +17372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc0b925c-5bb3-4508-a991-7b5099cbbdd9")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG05"
 			(at 101.6 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -17377,7 +17384,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 103.124 36.576 0)
+			(at 105.41 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17425,7 +17432,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#FLG06")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -17442,7 +17449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd410adb-78b3-4728-b3d9-e2cb6358bc18")
-		(property "Reference" "R1"
+		(property "Reference" "R14"
 			(at 116.84 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17515,7 +17522,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R1")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -17533,7 +17540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e099230e-6ac0-4d07-934f-ee2f9313e202")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR052"
 			(at 259.08 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17593,7 +17600,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR014")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -17610,7 +17617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6fea178-cd39-40e6-b56d-3aa395af2dc0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR018"
 			(at 55.88 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17670,7 +17677,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR027")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17688,7 +17695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea251230-765f-49b9-8d4f-dc7aa85d6f9e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR050"
 			(at 246.38 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17748,7 +17755,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR021")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17766,7 +17773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed3f947-1cd3-4d62-af36-79941a4bbe28")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 222.25 48.5774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17973,7 +17980,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17990,7 +17997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2fffcb0-7ccd-4bb9-b1c9-a09df7b57c05")
-		(property "Reference" "C48"
+		(property "Reference" "C11"
 			(at 92.456 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18197,7 +18204,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C48")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -18215,7 +18222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f36bd294-a407-4ec4-9785-6f5b71360344")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR015"
 			(at 46.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -18275,7 +18282,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR04")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18292,7 +18299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb2809f6-62fe-49cd-8c9c-3a082e506c6f")
-		(property "Reference" "C75"
+		(property "Reference" "C9"
 			(at 77.724 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18499,7 +18506,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "C75")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -18516,7 +18523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc1867d6-ac66-44f7-982f-cc8407a3e73f")
-		(property "Reference" "R58"
+		(property "Reference" "R18"
 			(at 133.223 156.845 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18710,7 +18717,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R58")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -18727,7 +18734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe95a705-d72d-4d24-ae4a-64dff9eb5860")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -18787,7 +18794,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -18804,7 +18811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "feaade2c-3998-4396-9bba-5bc3e653ebf6")
-		(property "Reference" "R62"
+		(property "Reference" "R13"
 			(at 109.22 170.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18998,7 +19005,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d/ad31b9a1-6a11-4004-aff0-96035b9d12ae"
-					(reference "R62")
+					(reference "R13")
 					(unit 1)
 				)
 			)

@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "bd70e714-05b6-457c-88d3-c29e19a48f7d")
 	(paper "A4")
+	(title_block
+		(title "WS2812B Driver PCB")
+		(date "7/2026")
+		(rev "RevA")
+		(company "Jennifer Li")
+	)
 	(lib_symbols
 		(symbol "power:GND"
 			(power global)
@@ -156,7 +162,7 @@
 		)
 		(uuid "8a59b68f-1748-4cf1-9191-fda9ffac4f61")
 	)
-	(text "- Designed for any PD charger with 9V or higher profile\n- Use 5V addressable strips\n- must initially NVM program PD controllerto accept profiles >5V\n- RESET button to reset hardware\n- Entering flash mode: hold BOOT, press and release RESET, then\nrelease BOOT.\n- Entering run mode: press RESET (BOOT is already pulled high)"
+	(text "- Designed for PD source with 9V or higher profile\n- Use 5V addressable strips (WS2812B)\n- PD controller must initially be programmed through NVM to \naccept profiles greater than 5V\n- Reset hardware: press RESET button\n- Entering bootloader: hold BOOT (GPIO0 is strapping), \npress RESET, release BOOT.\n- Run firmware: press RESET"
 		(exclude_from_sim no)
 		(at 180.086 147.066 0)
 		(effects
@@ -600,7 +606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27faa33e-7a57-463e-a7bb-2c254c846d73")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR01"
 			(at 27.94 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -660,7 +666,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d"
-					(reference "#PWR022")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -678,7 +684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2853ab27-03ab-480d-8b87-3c988ee04ef8")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR02"
 			(at 69.85 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -738,7 +744,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d"
-					(reference "#PWR015")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -756,7 +762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b098e1-7f0a-47a5-8145-aaec0c31a546")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR04"
 			(at 238.76 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -816,7 +822,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d"
-					(reference "#PWR024")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -834,7 +840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6c8a61-5688-42a9-bd00-787f9594f1eb")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR03"
 			(at 90.17 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -894,7 +900,7 @@
 		(instances
 			(project "LEDsignPCB"
 				(path "/bd70e714-05b6-457c-88d3-c29e19a48f7d"
-					(reference "#PWR023")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
