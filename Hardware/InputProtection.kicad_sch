@@ -4147,7 +4147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 115.57 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -4324,6 +4324,17 @@
 			)
 		)
 		(property " LCSC P/N" ""
+			(at 115.57 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "LTST-C170GKT"
 			(at 115.57 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -5674,7 +5685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 34.036 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 40.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5718,7 +5729,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "GRM188R72A104KA35D"
 			(at 40.64 83.82 0)
 			(hide yes)
 			(show_name no)
