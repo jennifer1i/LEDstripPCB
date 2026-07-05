@@ -6116,7 +6116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 63.5 157.988 90)
 			(hide yes)
 			(show_name no)
@@ -6721,7 +6721,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "9V"
+		(property "Value" "9V_TP"
 			(at 207.01 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,7 +6732,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 199.39 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8070,7 +8070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 128.778 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -8526,7 +8526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 109.22 165.608 90)
 			(hide yes)
 			(show_name no)
@@ -9143,7 +9143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 50.8 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9365,7 +9365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPA0010A"
+		(property "Footprint" "LED Sign:TPS56637RPAR"
 			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9473,7 +9473,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3V3_F"
+		(property "Value" "3V3_F_LED"
 			(at 262.89 51.1174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10755,7 +10755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 63.5 164.592 90)
 			(hide yes)
 			(show_name no)
@@ -11470,7 +11470,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 105.41 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11636,6 +11636,17 @@
 			)
 		)
 		(property " LCSC P/N" ""
+			(at 105.41 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RNAN0603BKE100R"
 			(at 105.41 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -12017,7 +12028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 118.618 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -12240,7 +12251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_RIT"
+		(property "Footprint" "LED Sign:RT9193-33"
 			(at 107.95 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12473,7 +12484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 109.22 168.148 90)
 			(hide yes)
 			(show_name no)
@@ -13108,7 +13119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 108.458 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -13322,7 +13333,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "3V3_TP"
 			(at 242.57 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13333,7 +13344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -15194,7 +15205,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "3V3_LED"
 			(at 250.19 51.1174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15449,7 +15460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 63.5 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16219,7 +16230,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_LED"
 			(at 236.22 51.1174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16700,7 +16711,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3V3_F"
+		(property "Value" "3V3_F_TP"
 			(at 259.08 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16711,7 +16722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 251.46 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17451,7 +17462,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_TP"
 			(at 224.79 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17462,7 +17473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18367,7 +18378,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "9V"
+		(property "Value" "9V_LED"
 			(at 222.25 51.1174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19170,7 +19181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 134.62 151.892 90)
 			(hide yes)
 			(show_name no)
@@ -19346,6 +19357,17 @@
 				)
 			)
 		)
+		(property "P/N" "ERA-3AEB223V"
+			(at 134.62 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aaa9e357-725a-4ebf-bd30-4fd663400dd3")
 		)
@@ -19469,7 +19491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 109.22 167.132 90)
 			(hide yes)
 			(show_name no)

@@ -4898,7 +4898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 39.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5263,7 +5263,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "BOOT_LED"
 			(at 70.104 123.444 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5701,7 +5701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 31.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6301,7 +6301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "R"
 			(at 70.104 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6394,7 +6394,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "RESET_SW"
 			(at 43.18 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6640,7 +6640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 163.83 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6673,7 +6673,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "RNAN0805BKE499R"
 			(at 163.83 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7100,7 +7100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "BOOT_TP"
 			(at 36.83 123.6979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7111,7 +7111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 39.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7321,7 +7321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "R"
 			(at 52.832 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7501,7 +7501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8020,7 +8020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "RESET_TP"
 			(at 24.13 123.6979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8031,7 +8031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 26.67 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8252,7 +8252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8285,7 +8285,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "ERJ-PC3B4701V"
 			(at 44.45 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8630,7 +8630,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "RESET_LED"
 			(at 52.832 123.444 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +8910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.76 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8943,7 +8943,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "ERJ-S06J220V"
 			(at 111.76 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9923,7 +9923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 38.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9956,7 +9956,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "RC0201FR-0710KL"
 			(at 38.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10158,7 +10158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10191,7 +10191,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "ERJ-S06J220V"
 			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10460,7 +10460,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "BOOT_SW"
 			(at 66.04 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10706,7 +10706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 64.77 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10739,7 +10739,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "RC0201FR-0710KL"
 			(at 64.77 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10941,7 +10941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10974,7 +10974,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "ERJ-PC3B4701V"
 			(at 31.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11177,7 +11177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 26.67 116.84 0)
 			(hide yes)
 			(show_name no)
