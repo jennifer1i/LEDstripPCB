@@ -974,26 +974,6 @@
 				(justify left)
 			)
 		)
-		(pin "SCK" input
-			(at 203.2 110.49 180)
-			(uuid "ac211112-5e85-4874-a78b-e0ee186c3b30")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SD" input
-			(at 203.2 114.3 180)
-			(uuid "ba452610-f420-4280-b1b9-a75fa2f0d2f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "WS" input
 			(at 203.2 118.11 180)
 			(uuid "012c8143-4a9c-4fab-a252-2e81db14bbc0")
@@ -1012,6 +992,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BCLK" input
+			(at 203.2 110.49 180)
+			(uuid "96a96382-2df1-4831-8ce9-eaee339804b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC_DATA" input
+			(at 203.2 114.3 180)
+			(uuid "79180ccc-d8a7-4823-b20d-b72b266321c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

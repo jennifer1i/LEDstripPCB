@@ -2952,7 +2952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R"
 			(at 134.62 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3185,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.39 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3452,7 +3452,7 @@
 				)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "PRTR5V0U2X,215"
 			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3650,7 +3650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R"
 			(at 118.11 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,7 +3884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 52.07 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4060,6 +4060,17 @@
 				)
 			)
 		)
+		(property "P/N" "USB4105-GF-A-060"
+			(at 48.26 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A1"
 			(uuid "ec1f0b85-8f99-451e-aab9-6799efc808a3")
 		)
@@ -4136,7 +4147,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VBUS_LED"
 			(at 117.348 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4382,7 +4393,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VBUS_PP"
+		(property "Value" "VBUS_PP_LED"
 			(at 134.62 38.354 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,7 +4404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 132.08 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -4580,6 +4591,17 @@
 				)
 			)
 		)
+		(property "P/N" "LTST-C170GKT"
+			(at 132.08 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1e4f1e1-9e31-4d56-9835-1482e3c80a58")
 		)
@@ -4618,7 +4640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VBUS_PP"
+		(property "Value" "VBUS_PP_TP"
 			(at 173.99 32.2579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,7 +4651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 176.53 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5229,7 +5251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VBUS_TP"
 			(at 160.02 32.2579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5240,7 +5262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 162.56 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6007,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.39 50.8 0)
 			(hide yes)
 			(show_name no)
