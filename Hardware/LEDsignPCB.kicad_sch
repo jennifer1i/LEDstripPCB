@@ -186,7 +186,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 102.87) (xy 203.2 102.87)
+			(xy 134.62 102.87) (xy 184.15 102.87)
 		)
 		(stroke
 			(width 0)
@@ -236,7 +236,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 66.04) (xy 203.2 66.04)
+			(xy 158.75 66.04) (xy 184.15 66.04)
 		)
 		(stroke
 			(width 0)
@@ -316,7 +316,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 118.11) (xy 232.41 118.11)
+			(xy 219.71 118.11) (xy 213.36 118.11)
 		)
 		(stroke
 			(width 0)
@@ -336,7 +336,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 118.11) (xy 203.2 118.11)
+			(xy 134.62 118.11) (xy 184.15 118.11)
 		)
 		(stroke
 			(width 0)
@@ -396,7 +396,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 110.49) (xy 203.2 110.49)
+			(xy 134.62 110.49) (xy 184.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -456,7 +456,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 203.2 114.3)
+			(xy 134.62 114.3) (xy 184.15 114.3)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +466,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 97.79) (xy 203.2 97.79)
+			(xy 134.62 97.79) (xy 184.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -752,7 +752,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 118.11 0)
+		(at 219.71 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -763,7 +763,7 @@
 		(fields_autoplaced yes)
 		(uuid "67b098e1-7f0a-47a5-8145-aaec0c31a546")
 		(property "Reference" "#PWR04"
-			(at 238.76 124.46 0)
+			(at 219.71 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -774,7 +774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 123.19 0)
+			(at 219.71 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -784,7 +784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 118.11 0)
+			(at 219.71 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -795,7 +795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 118.11 0)
+			(at 219.71 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -806,7 +806,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 118.11 0)
+			(at 219.71 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -907,7 +907,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 62.23)
+		(at 184.15 62.23)
 		(size 29.21 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -923,7 +923,7 @@
 		)
 		(uuid "06ceb6ee-9a5e-4371-83f6-89b97292c988")
 		(property "Sheetname" "LEDs and Audio (page 5)"
-			(at 203.2 61.5184 0)
+			(at 184.15 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -934,7 +934,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs+Mic.kicad_sch"
-			(at 203.2 122.5046 0)
+			(at 184.15 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -945,7 +945,7 @@
 			)
 		)
 		(pin "3V3_MIC" input
-			(at 203.2 66.04 180)
+			(at 184.15 66.04 180)
 			(uuid "6cd29050-f63f-4db1-a43b-860c90d39378")
 			(effects
 				(font
@@ -955,7 +955,7 @@
 			)
 		)
 		(pin "LED1" input
-			(at 203.2 97.79 180)
+			(at 184.15 97.79 180)
 			(uuid "081549e4-952b-461d-b760-1da6d003c817")
 			(effects
 				(font
@@ -965,7 +965,7 @@
 			)
 		)
 		(pin "LED2" input
-			(at 203.2 102.87 180)
+			(at 184.15 102.87 180)
 			(uuid "9fad5443-9a2c-4e75-88f6-ed2e282ff8be")
 			(effects
 				(font
@@ -975,7 +975,7 @@
 			)
 		)
 		(pin "WS" input
-			(at 203.2 118.11 180)
+			(at 184.15 118.11 180)
 			(uuid "012c8143-4a9c-4fab-a252-2e81db14bbc0")
 			(effects
 				(font
@@ -985,7 +985,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 232.41 118.11 0)
+			(at 213.36 118.11 0)
 			(uuid "a4b37ceb-4182-465e-a157-f3c8e107ac38")
 			(effects
 				(font
@@ -995,7 +995,7 @@
 			)
 		)
 		(pin "BCLK" input
-			(at 203.2 110.49 180)
+			(at 184.15 110.49 180)
 			(uuid "96a96382-2df1-4831-8ce9-eaee339804b1")
 			(effects
 				(font
@@ -1005,7 +1005,7 @@
 			)
 		)
 		(pin "MIC_DATA" input
-			(at 203.2 114.3 180)
+			(at 184.15 114.3 180)
 			(uuid "79180ccc-d8a7-4823-b20d-b72b266321c6")
 			(effects
 				(font
